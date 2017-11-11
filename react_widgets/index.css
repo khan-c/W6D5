@@ -1,0 +1,59 @@
+h1 {
+  margin: 0;
+}
+
+body {
+  font-family: Lobster;
+}
+
+.clock {
+  display: flex;
+  background-color: gray;
+}
+
+.titles, .data {
+  display: flex;
+  flex-direction: column;
+}
+
+.data > span {
+  padding: 24px;
+  font-size: 28px;
+  color: blue;
+}
+
+.tabs {
+  margin: 20px;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tab-content {
+  border: 3px solid black;
+  border-top: 0;
+  text-align: center;
+
+  height: 150px;
+}
+
+.tab-headers {
+  display: flex;
+}
+
+.tab-header {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+}
+
+.tab-header:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
